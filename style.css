@@ -26,15 +26,13 @@ body {
 
 article {
     background: var(--white);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 24px;
-    max-inline-size: 384px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    inline-size: 384px;
+    block-size: 522px;
 }
 
 .illustration {
-    max-inline-size: 100%;
-    block-size: auto;
+    border-radius: 10px;
+    inline-size: 100%;
 }
