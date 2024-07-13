@@ -33,6 +33,7 @@ article {
     /* block-size: 522px; */
     /* max-height: 522px; */
     max-width: 384px;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
 }
 
 .illustration {
@@ -89,4 +90,13 @@ article {
 .author p {
     font-size: 14px;
     font-weight: 800;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        padding: 0 24px;
+    }
+    article {
+        max-width: 327px;
+    }
 }
