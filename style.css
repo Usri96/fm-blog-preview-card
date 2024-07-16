@@ -92,11 +92,9 @@ article {
     font-weight: 800;
 }
 
-@media screen and (max-width: 400px) {
-    body {
-        padding: 0 24px;
-    }
+@media (max-width: 500px) {
     article {
-        max-width: 327px;
+        margin: 0 24px;
+        width: 327px;
     }
 }
